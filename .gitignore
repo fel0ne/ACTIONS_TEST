@@ -1,0 +1,37 @@
+# Исполняемые файлы (результат работы make в INTR_TESTS)
+# Игнорируем файлы без расширения в подпапках тестов
+INTR_TESTS/gemv/*
+!INTR_TESTS/gemv/*.cpp
+INTR_TESTS/ger/*
+!INTR_TESTS/ger/*.cpp
+INTR_TESTS/gerc/*
+!INTR_TESTS/gerc/*.cpp
+INTR_TESTS/geru/*
+!INTR_TESTS/geru/*.cpp
+INTR_TESTS/hemv/*
+!INTR_TESTS/hemv/*.cpp
+INTR_TESTS/her/*
+!INTR_TESTS/her/*.cpp
+INTR_TESTS/her2/*
+!INTR_TESTS/her2/*.cpp
+INTR_TESTS/symv/*
+!INTR_TESTS/symv/*.cpp
+INTR_TESTS/syr/*
+!INTR_TESTS/syr/*.cpp
+INTR_TESTS/syr2/*
+!INTR_TESTS/syr2/*.cpp
+INTR_TESTS/trmv/*
+!INTR_TESTS/trmv/*.cpp
+INTR_TESTS/trsv/*
+!INTR_TESTS/trsv/*.cpp
+
+# Исполняемый файл бенчмарка
+BENCH/trmm_test
+
+# Папка с собранным локально OpenBLAS (если она лежит внутри ACTIONS_TEST)
+OpenBLAS-0.3.31/
+
+# Общие файлы сборки и объектные файлы
+*.o
+*.a
+*.so

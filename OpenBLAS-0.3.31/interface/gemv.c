@@ -260,7 +260,12 @@ void CNAME(enum CBLAS_ORDER order,
 
 #endif
   if ((m==0) || (n==0)) return;
+  
 
+
+
+
+  return;
   lenx = n;
   leny = m;
   if (trans) lenx = m;

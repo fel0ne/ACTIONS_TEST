@@ -29,7 +29,7 @@ INTR_TESTS/trsv/*
 BENCH/trmm_test
 
 # Папка с собранным локально OpenBLAS (если она лежит внутри ACTIONS_TEST)
-OpenBLAS-0.3.31/
+
 
 # Общие файлы сборки и объектные файлы
 *.o

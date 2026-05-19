@@ -306,6 +306,6 @@ void CNAME(enum CBLAS_ORDER order,
 
   IDEBUG_END;
 
-  return;
+  return(52);
 
 }

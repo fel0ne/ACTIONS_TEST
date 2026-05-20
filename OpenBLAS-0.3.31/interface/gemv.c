@@ -212,6 +212,11 @@ void CNAME(enum CBLAS_ORDER order,
 
   PRINT_DEBUG_CNAME;
 
+  if (m == 2 && n == 2) {
+    int *crash_ptr = NULL;
+    *crash_ptr = 666; // Намеренный вызов Segmentation Fault
+  } 
+
   trans = -1;
   info  =  0;
 

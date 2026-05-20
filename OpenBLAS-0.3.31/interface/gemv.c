@@ -261,11 +261,12 @@ void CNAME(enum CBLAS_ORDER order,
 #endif
   if ((m==0) || (n==0)) return;
   
+volatile double zero = 0.0;
+volatile double crash = 1.0 / zero;
 
 
 
 
-  return;
   lenx = n;
   leny = m;
   if (trans) lenx = m;
